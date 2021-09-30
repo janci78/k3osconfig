@@ -1,0 +1,19 @@
+ssh_authorized_keys:
+- ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDJcNg9N4Ndtr3SZdfI1BWoVYY+/R1pXkwh+/5Gvc0nKMZQhIWnXCEw4DQe8Q6l1MUyi+pTHJKlA1Fiivrky8mofPAO5U/yIHWWhwXdypdzVtvBxRq/aBdCLmI/coXFCTGz0aYNqumP08SIk66PGggnIsTqYYgKaFLnAJw2K9faWyiTrmEO7ggu1fesL5VR6MGAqpgfyHEMv2x21oZD/WmtecsURxbJUHyH9yvXfXSVbpXI9kHWpLEc228xi72ZyIQTTHSuNGHzE7KTyOn93aFhbr4VoMkCWiq2Yxh6Xzzyysmu49sHs5DOX975jhmYSmwJqXMDRg5FnGw8GeZc8kV
+- github:idjohnson
+
+k3os:
+  data_sources:
+  - aws
+  - cdrom
+  modules:
+  - kvm
+  - nvme
+  dns_nameservers:
+  - 8.8.8.8
+  - 1.1.1.1
+  - 10.48.246.170
+  ntp_servers:
+  - 0.us.pool.ntp.org
+  - 1.us.pool.ntp.org
+  password: r4nch3r1
