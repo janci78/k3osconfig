@@ -1,6 +1,6 @@
 ssh_authorized_keys:
-- ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDJcNg9N4Ndtr3SZdfI1BWoVYY+/R1pXkwh+/5Gvc0nKMZQhIWnXCEw4DQe8Q6l1MUyi+pTHJKlA1Fiivrky8mofPAO5U/yIHWWhwXdypdzVtvBxRq/aBdCLmI/coXFCTGz0aYNqumP08SIk66PGggnIsTqYYgKaFLnAJw2K9faWyiTrmEO7ggu1fesL5VR6MGAqpgfyHEMv2x21oZD/WmtecsURxbJUHyH9yvXfXSVbpXI9kHWpLEc228xi72ZyIQTTHSuNGHzE7KTyOn93aFhbr4VoMkCWiq2Yxh6Xzzyysmu49sHs5DOX975jhmYSmwJqXMDRg5FnGw8GeZc8kV
-- github:idjohnson
+- ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAkFaUDy0yBjUmnPkLYgTfPuwcjlkRFTUic7ZP6qOSnq767/gEhCcQkIwWXWh2uIuP/A/zN84bF+NP9BH6lLz3hGW5jTFE+VzUXoXonGMrHtB0s1jw0F+3EXMW8pJAUt24Dr/Vo1ic4UIadGhcSzadRXWHEnbGU70xAbMalc/gk0xzN4rH5rajERo8rzyubjGxa/v2oN+p/kzdk4W4zJa02tvt0mN+vGmx93R06CaFEn9he7pt+tOzKfa76y/NiQB9ojSwbJbigdQ8hEMigDk9Nmm3vevmas6NTPGdLiQhJLWDIWCzsSb2lnua3PpUhfoCktEOMAxr+qtrQzrpZ1al8Q== rsa-key-20170718
+- github:janci78
 
 k3os:
   data_sources:
@@ -12,8 +12,7 @@ k3os:
   dns_nameservers:
   - 8.8.8.8
   - 1.1.1.1
-  - 10.48.246.170
   ntp_servers:
   - 0.us.pool.ntp.org
   - 1.us.pool.ntp.org
-  password: r4nch3r1
+  password: P@ssw0rd
